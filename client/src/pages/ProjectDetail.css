@@ -1,0 +1,121 @@
+.back-link {
+  color: #0066cc;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-detail {
+  margin-top: 20px;
+}
+
+.project-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.project-detail-header h1 {
+  font-size: 36px;
+  color: #0066cc;
+}
+
+.project-detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-member {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.reviewer {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
+
+.comment-form {
+  margin-bottom: 30px;
+}
+
+.comment-form textarea {
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.comment-header strong {
+  color: #0066cc;
+}
+
+.comment p {
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .project-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .project-detail-header h1 {
+    font-size: 28px;
+  }
+}
+

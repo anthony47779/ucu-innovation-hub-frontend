@@ -1,0 +1,4 @@
+# Place your UCU university background image here
+# Name it: ucu-background.jpg
+# Then update Login.css to use: url('/images/ucu-background.jpg')
+
